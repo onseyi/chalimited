@@ -23,10 +23,28 @@ body {
 	font-size: 16px;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,.8) !important;
+    color: #0B3351 !important;
 }
 .navbar-dark .navbar-toggler {
     background-color: #fff !important;
+}
+.navbar {
+    padding: -0.5rem 1rem !important;
+}
+.dropdown-item {
+    color: #fff;
+    background-color: #03153b;
+	text-align: right;
+	padding: 10px 20px;
+}
+.dropdown-menu{
+	padding: 0 !important;
+}
+.dropdown-menu-right {
+    right: 394px !important;
+}
+.top-line{
+   border-top: 4px solid #0B3351;
 }
 .container {
     max-width: 85% !important;
@@ -543,6 +561,12 @@ body {
     background-color: #0c0e27;
     padding: 5rem 0;
 }
+.chalimited__footer h5 {
+    color: #666772;
+}
+.chalimited__footer p {
+    font-size: 14px;
+}
 .chalimited__footer a {color:#fff; font-size: 16px;}
 .chalimited__footer a:hover{color:#fff;}
 .chalimited__footer li{
@@ -550,8 +574,16 @@ body {
 	list-style: none;
 	padding: 0 2rem;
 }
+.md{
+	color:#474a68 !important;
+	float:right;
+	font-size: 14px !important;	
+}
 .mt-c{
 	margin-top: 15%;
+}
+.bline1 {
+    border-bottom: 1px solid #03153beb;
 }
 .bline {
     border-bottom: 1px solid #ffffff1a;
@@ -668,7 +700,7 @@ body {
 }
 .chalimited__content__add {
     width: 100%;
-    background: #0e1119;
+    background: #0c0e27;
     padding: 70px 0;
 }
 .chalimited__content__add h5{
@@ -769,13 +801,17 @@ body {
 /**/
 @media screen and (max-width: 414px) {
 .navbar-nav {
-    background-color: #0c0e27;
+    background-color: #fcfcfc;
     z-index: 1000;
     padding: 15% 0;
     text-align: center;
+	width: 100%;
 }	
+.container {
+    max-width: 90% !important;
+}
 .chalimited__cover {
-    height: 85vh;
+    height: 90vh;
 }
 .chalimited__content{
 	height: 100%;
@@ -785,7 +821,7 @@ body {
 }
 .chalimited__ban{
 	padding: 3rem 0;
-	height: 90vh;
+	height: 95vh;
 	background-size: cover;
 }	
 .chalimited__ban h1{
@@ -863,10 +899,8 @@ body {
     padding: 0;
 }
 .ot{display: none;}
-.num {
-    font-size: 280px;
-}
-.num1 {
-    font-size: 280px;
-}
+.num {font-size: 280px;}
+.num1 { font-size: 280px;}
+.md{float:left;}
+.dropdown-item {text-align: center;}
 }
